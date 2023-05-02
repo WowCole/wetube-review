@@ -1,0 +1,11 @@
+{
+  "name": "wetube2",
+  "version": "1.0.0",
+  "description": "NodeJS, Express,Mongo,ES6 를 활용한 유튜브 클론",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wowcole",
+  "license": "MIT"
+}
