@@ -4,8 +4,28 @@
   "description": "NodeJS, Express,Mongo,ES6 를 활용한 유튜브 클론",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WowCole/wetube-review.git"
+  },
   "author": "wowcole",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WowCole/wetube-review/issues"
+  },
+  "homepage": "https://github.com/WowCole/wetube-review#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "nodemon": "^2.0.22"
+  }
 }
